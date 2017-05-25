@@ -1,0 +1,169 @@
+html {
+    background: #334 url(../images/banner.png) repeat-x 0 0;
+}
+
+.box {
+    width: 970px;
+    margin: 50px auto;
+    border: #667 solid 1px;
+}
+
+.bananer {
+    background: url(../images/banner_1.jpg) no-repeat;
+    background-size: 100%;
+    height: 250px;
+}
+
+.nav-list{
+    height: 50px;
+    background: url(../images/nav.gif) repeat-x 0 0;
+    background-size: 100%;
+}
+
+.nav-list ul{
+    width: 80%;
+    margin: auto;
+}
+.nav-list li{
+    float: left;
+}
+
+.nav-list li a{
+    color:#fff;
+    line-height: 50px;
+    padding:16px 20px;
+}
+
+.nav-list li.active a,.nav-list li a:hover{
+    background: #799;
+}
+
+.YX-info {
+    padding:5% 10%;
+    margin: auto;
+    background: #edc;
+}
+
+.YX-info .txt {
+    margin-top: 20px;
+    line-height: 1.8;
+}
+
+.YX-info .txt a{
+    background: #eb6;
+    color: #345;
+}
+
+.YX-info .txt a:hover{
+    background: #fb5;
+    color: #778;
+}
+
+.container {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+#msph {
+    position: absolute;
+    left: 0;
+}
+
+#btn {
+    width: 150px;
+    margin: auto;
+}
+
+#btn li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    border-radius: 50px;
+    background:#000;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#btn .selected {
+    background:rgba(0,0,0,.5);
+}
+
+.ms-jq li{
+    padding: 10px 0;
+    list-style-type: disc;
+}
+
+.ms-jq li a {
+    background: #eb6;
+    color: #000;
+}
+
+.ms-jq li a:hover{
+    background: #fb5;
+    color: #778;
+}
+
+.jq-info {
+    width: 100%;
+}
+
+.jq-info h2{
+    font-size: 22px;
+    font-weight: 100;
+    margin:10px 0;
+}
+
+.jq-info p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.hide {
+    display: none;
+}
+
+#jn{
+    height: 100px;
+}
+
+#jn li{
+    float:left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.YX-info p {
+    line-height: 50px;
+}
+
+table{
+    margin-top: 20px;
+    border-spacing: 0px;
+    line-height: 24px;
+}
+
+td,th{
+    padding: 5px 50px;
+    cursor: pointer;
+    border: 1px solid #fff;
+}
+
+th {
+    background: #455;
+}
+
+.add{
+    background:#ec8;
+}
+
+.even{
+    background:#ed8;
+}
+
+tr:hover {
+    background: #cba;
+}
